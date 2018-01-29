@@ -1,0 +1,49 @@
+Start testing: Jan 28 12:15 CST
+----------------------------------------------------------
+1/1 Testing: unitTestEKF
+1/1 Test: unitTestEKF
+Command: "/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests/unitTestEKF"
+Directory: /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests
+"unitTestEKF" start time: Jan 28 12:15 CST
+Output:
+----------------------------------------------------------
+Running 4 test cases...
+x_=  0.96749
+0.405862
+ 4.58427
+-1.83232
+P_= 0.0224541         0  0.204131         0
+        0 0.0224541         0  0.204131
+ 0.204131         0   92.7797         0
+        0  0.204131         0   92.7797
+x_= 0.958365
+0.627631
+0.110368
+ 2.04304
+P_= 0.0220006         0  0.210519         0
+        0 0.0220006         0  0.210519
+ 0.210519         0   4.08801         0
+        0  0.210519         0   4.08801
+x_=   1.34291
+ 0.364408
+  2.32002
+-0.722813
+P_= 0.0185328         0  0.109639         0
+        0 0.0185328         0  0.109639
+ 0.109639         0   1.10798         0
+        0  0.109639         0   1.10798
+EKF: 
+unitTestEKF: /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/src/Eigen/src/Core/CwiseBinaryOp.h:132: Eigen::CwiseBinaryOp<BinaryOp, Lhs, Rhs>::CwiseBinaryOp(const Lhs&, const Rhs&, const BinaryOp&) [with BinaryOp = Eigen::internal::scalar_difference_op<double>; Lhs = const Eigen::Matrix<double, -1, 1>; Rhs = const Eigen::GeneralProduct<Eigen::Matrix<double, -1, -1>, Eigen::Matrix<double, -1, 1>, 4>]: Assertion `aLhs.rows() == aRhs.rows() && aLhs.cols() == aRhs.cols()' failed.
+unknown location(0): fatal error in "EKF": signal: SIGABRT (application abort requested)
+/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests/unitTestEKF.cpp(144): last checkpoint
+
+*** 1 failure detected in test suite "unitTestsEKF"
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"unitTestEKF" end time: Jan 28 12:15 CST
+"unitTestEKF" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jan 28 12:15 CST

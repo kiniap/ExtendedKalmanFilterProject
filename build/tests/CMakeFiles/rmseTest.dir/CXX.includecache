@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests/rmseTest.cpp
+boost/test/unit_test.hpp
+-
+math.h
+-
+

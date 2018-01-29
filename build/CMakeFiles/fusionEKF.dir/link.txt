@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfusionEKF.a  CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o
+/usr/bin/ranlib libfusionEKF.a

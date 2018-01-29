@@ -1,0 +1,1 @@
+/usr/bin/c++   -g   CMakeFiles/ExtendedKF.dir/src/main.cpp.o  -o ExtendedKF libfusionEKF.a libTools.a libKF.a -lz -lssl -luv -luWS 
