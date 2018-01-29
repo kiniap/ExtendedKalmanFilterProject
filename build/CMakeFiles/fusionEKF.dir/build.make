@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project
+CMAKE_SOURCE_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build
+CMAKE_BINARY_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fusionEKF.dir/depend.make
@@ -59,16 +59,16 @@ include CMakeFiles/fusionEKF.dir/flags.make
 
 CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o: CMakeFiles/fusionEKF.dir/flags.make
 CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o: ../src/FusionEKF.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o -c /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o"
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o -c /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/src/FusionEKF.cpp
 
 CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp > CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/src/FusionEKF.cpp > CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.i
 
 CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/src/FusionEKF.cpp -o CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/src/FusionEKF.cpp -o CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.s
 
 CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o.requires:
 
@@ -91,7 +91,7 @@ fusionEKF_EXTERNAL_OBJECTS =
 libfusionEKF.a: CMakeFiles/fusionEKF.dir/src/FusionEKF.cpp.o
 libfusionEKF.a: CMakeFiles/fusionEKF.dir/build.make
 libfusionEKF.a: CMakeFiles/fusionEKF.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfusionEKF.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfusionEKF.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/fusionEKF.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fusionEKF.dir/link.txt --verbose=$(VERBOSE)
 
@@ -109,6 +109,6 @@ CMakeFiles/fusionEKF.dir/clean:
 .PHONY : CMakeFiles/fusionEKF.dir/clean
 
 CMakeFiles/fusionEKF.dir/depend:
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/CMakeFiles/fusionEKF.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/CMakeFiles/fusionEKF.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/fusionEKF.dir/depend
 

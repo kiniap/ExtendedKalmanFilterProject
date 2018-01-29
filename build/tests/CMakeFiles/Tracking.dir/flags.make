@@ -6,5 +6,5 @@ CXX_FLAGS = -g   -std=c++11
 
 CXX_DEFINES = -DBOOST_TEST_DYN_LINK
 
-CXX_INCLUDES = -I/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/src 
+CXX_INCLUDES = -I/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/src 
 

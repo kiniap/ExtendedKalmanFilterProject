@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project
+CMAKE_SOURCE_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build
+CMAKE_BINARY_DIR = /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/Tracking.dir/depend.make
@@ -59,16 +59,16 @@ include tests/CMakeFiles/Tracking.dir/flags.make
 
 tests/CMakeFiles/Tracking.dir/tracking.cpp.o: tests/CMakeFiles/Tracking.dir/flags.make
 tests/CMakeFiles/Tracking.dir/tracking.cpp.o: ../tests/tracking.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/Tracking.dir/tracking.cpp.o"
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tracking.dir/tracking.cpp.o -c /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests/tracking.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/Tracking.dir/tracking.cpp.o"
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tracking.dir/tracking.cpp.o -c /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/tests/tracking.cpp
 
 tests/CMakeFiles/Tracking.dir/tracking.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tracking.dir/tracking.cpp.i"
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests/tracking.cpp > CMakeFiles/Tracking.dir/tracking.cpp.i
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/tests/tracking.cpp > CMakeFiles/Tracking.dir/tracking.cpp.i
 
 tests/CMakeFiles/Tracking.dir/tracking.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tracking.dir/tracking.cpp.s"
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests/tracking.cpp -o CMakeFiles/Tracking.dir/tracking.cpp.s
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/tests/tracking.cpp -o CMakeFiles/Tracking.dir/tracking.cpp.s
 
 tests/CMakeFiles/Tracking.dir/tracking.cpp.o.requires:
 
@@ -91,9 +91,9 @@ Tracking_EXTERNAL_OBJECTS =
 tests/libTracking.a: tests/CMakeFiles/Tracking.dir/tracking.cpp.o
 tests/libTracking.a: tests/CMakeFiles/Tracking.dir/build.make
 tests/libTracking.a: tests/CMakeFiles/Tracking.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libTracking.a"
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Tracking.dir/cmake_clean_target.cmake
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tracking.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libTracking.a"
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Tracking.dir/cmake_clean_target.cmake
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tracking.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/Tracking.dir/build: tests/libTracking.a
@@ -105,10 +105,10 @@ tests/CMakeFiles/Tracking.dir/requires: tests/CMakeFiles/Tracking.dir/tracking.c
 .PHONY : tests/CMakeFiles/Tracking.dir/requires
 
 tests/CMakeFiles/Tracking.dir/clean:
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Tracking.dir/cmake_clean.cmake
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests && $(CMAKE_COMMAND) -P CMakeFiles/Tracking.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/Tracking.dir/clean
 
 tests/CMakeFiles/Tracking.dir/depend:
-	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/tests /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/CarND-Extended-Kalman-Filter-Project/build/tests/CMakeFiles/Tracking.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/tests /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests /home/kiniap/Courses/SelfDriving/SensorFusion_Localization_Control/ExtendedKalmanFilters/ExtendedKalmanFilterProject/build/tests/CMakeFiles/Tracking.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/Tracking.dir/depend
 

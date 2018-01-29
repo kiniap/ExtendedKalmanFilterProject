@@ -246,9 +246,10 @@ BOOST_AUTO_TEST_CASE(EKF)
 	}
 
 	//px, py, vx, vy output coordinates must have an RMSE <= [.11, .11, 0.52, 0.52]
-    //when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
+	//when using the file: "obj_pose-laser-radar-synthetic-input.txt which is the same data file the simulator uses for Dataset 1"
 	bool r = (RMSE(0) < 0.11) && (RMSE(1) < 0.11) && (RMSE(2) < 0.52) && (RMSE(3) < 0.52);
 	BOOST_CHECK_EQUAL(true, r);
+
 
 }
 
