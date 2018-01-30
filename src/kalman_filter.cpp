@@ -38,15 +38,8 @@ void KalmanFilter::Update(const VectorXd &z) {
   */
 	// Measurement update
 	VectorXd y = z - H_*x_;
-	MatrixXd S = H_*P_*H_.transpose()+R_;
 
-	MatrixXd K = P_*H_.transpose()*S.inverse();
-
-	// State update
-	x_ = x_ + K*y;
-	long x_size = x_.size();
-	MatrixXd I = MatrixXd::Identity(x_size,x_size);
-	P_ = (I - K*H_)*P_;
+	UpdateCommon(y);
 }
 
 void KalmanFilter::UpdateEKF(const VectorXd &z) {
@@ -60,13 +53,22 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
 
 	// Measurement update
 	VectorXd y = z - h_of_x;
-	MatrixXd S = H_*P_*H_.transpose()+R_;
+	NormalizeAngle(y(1));
 
-	MatrixXd K = P_*H_.transpose()*S.inverse();
+	UpdateCommon(y);
+}
 
-	// State update
-	x_ = x_ + K*y;
-	long x_size = x_.size();
-	MatrixXd I = MatrixXd::Identity(x_size,x_size);
-	P_ = (I - K*H_)*P_;
+void KalmanFilter::UpdateCommon(const VectorXd& y)
+{
+  const MatrixXd PHt = P_ * H_.transpose();
+  const MatrixXd S = H_ * PHt + R_;
+  const MatrixXd K = PHt * S.inverse();
+
+  x_ += K * y;
+  P_ -= K * H_ * P_;
+}
+
+void KalmanFilter::NormalizeAngle(double& phi)
+{
+	phi = atan2(sin(phi), cos(phi));
 }
